@@ -1,0 +1,217 @@
+/*estilos buscador e imagenes */
+.buscador button {
+    background-color: yellow;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+
+ .buscador {
+    display: flex;
+    width: 500px; 
+    height: 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+
+  .buscador input {
+    flex: 1;
+    font-size: 14px;
+    outline: none;
+  }
+
+header div{
+    display: flex;
+    padding-top:12px;
+}
+
+
+  .caja-envios img, .caja-logo img{
+    height: auto;
+    width:100%;
+  }
+
+/*estilos nav*/
+  nav {
+      display: flex;
+  justify-content: center;}
+
+    nav ul {
+      list-style: none;
+      display: flex;
+  text-decoration: none;
+  font-weight: 500;}
+
+    nav a {
+      display: block;
+      padding:20px 15px;
+      text-decoration: none;
+    }
+
+    nav li{
+     margin: 15px;
+     border:#0056b3 3px solid;
+     border-radius: 20px;
+    }
+
+    header{
+        background-color: #f2f22f;
+    }
+
+
+/* Contenedor del formulario */
+.encuesta {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+   display: flex;
+    flex-direction: column;
+}
+
+.encuesta a{
+      color: black;
+    }
+
+/* Etiquetas */
+label {
+  display: block;
+  font-weight: 600;
+  color: #0056b3;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Campos de texto */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #80bdff;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+  text-align: center;
+}
+
+
+.boton-recom {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Efecto hover */
+ .button-recom :hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+/* Espaciado entre botones */
+a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.ia , .volver{
+  border-radius: 250px;
+  border: none;
+  margin-left: 20px;
+  color:#f2f22f;
+  width: 80px;
+  height: 80px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+
+}
+
+.recomendacion{
+  width: 500px;
+  height: 400px;
+}
+
+.relojes ,  .mouses , .auriculares{
+  width: 280px;
+  height: 430px;
+}
+
+body h1{
+  text-align: center;
+  color:#007bff;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight:20px;
+  font-style: normal;
+}
+
+
+.auricular  , .mouse ,   .reloj{
+  border: 5px yellow solid;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.tachado{
+  text-decoration: line-through;
+}
+
+h5{
+  font-size: 40px;
+}
+
+.ahora{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ .caja-ofertas .btn{
+      background-color:#0056b3;
+      color: #ffffff;
+    }
+
+    .ofertas{
+      color:#0056b3;
+      font-size: 50px;
+      text-align: center;
+      padding-top: 20px;
+       font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight:20px;
+  font-style: normal;
+    }
+  
+    .caja-ofertas  img{
+      width: 280px;
+      height: 240px;
+     padding: 10px;
+    }
+
+a{
+  margin-top: 10px;
+ font-size: 16px;
+}
+
+.caja-boton{
+ width: 20%;
+}
+
+body{
+ margin:0;
+}
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/estilo.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <title>Encuesta</title>
+</head>
+<body>
+
+<header> 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 caja-logo"> <a href="../index.html"><img  src="../Imagenes/logo.png" alt="logo"></a></div>
+            <div class="col-6 caja-buscador">
+             <form class="buscador" action="#" method="get">
+               <input  type="text" placeholder="Buscar productos, marcas y más...">
+               <button type="submit">🔍</button>
+             </form>
+            </div>
+            <div class="col-3 caja-envios"><a href="#"><img  src="../Imagenes/envios.png" alt="envios"></a></div>
+        </div>
+    </div>
+
+
+    <div class="caja-navegador d-flex">
+
+ <div class="caja-boton"><a href="encuesta.html"><button class="ia">IA te ayuda</button></a></div>
+
+     <nav  class="caja-menu">
+        <div class="menu ">
+    <ul>
+      <li><a href="#">Categorias</a></li>
+      <li><a href="#">Cupones</a></li>
+      <li><a href="#">Ofertas</a></li>
+      <li><a href="#">Supermercado</a></li>
+      <li><a href="#">Moda</a></li>
+      <li><a href="https://play.mercadolibre.com.ar/?origin=navigation_menu_web#nav-header">Mercado Play</a></li>
+    </ul>
+       </div>
+  </nav>
+
+  </div>  
+    </header>
+  
+
+    
+    <main>
+    <h1>Deja que la IA te recomiende</h1>
+    
+<form  class="encuesta" method="post">
+<label for="">Nombre</label>
+<input class="input-recom" type="text" name="nombre"   placeholder="" required>   
+
+<label for="">A que le das mas importancia: Calidad o utilidad?</label>
+<input class="input-recom" type="text" name="importancia" required>
+
+<label for="">Buscas para tu casa u oficina?</label>
+<input class="input-recom"  type="text" name="lugar" required >
+
+<label for="">Te gusta la musica?</label>
+<input  class="input-recom" type="text" name="musica" required>
+
+<label  for=""> Queres convertirte en gammer? </label>
+<input class="input-recom" type="text" name="musica" required>
+
+<button class="boton-recom"><a href="recomendacion1.html">Si te gusta la musica..</a></button>
+<button class="boton-recom"><a href="recomendacion2.html">Ideal para tu set gammer</a></button>
+<button class="boton-recom"><a href="recomendacion3.html">Llegas tarde siempre????</a></button>
+
+
+</main>
+
+<footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</footer>
+
+</body>
+</html>
