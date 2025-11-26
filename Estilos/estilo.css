@@ -95,7 +95,6 @@ input[type="text"] {
   outline: none;
   transition: 0.3s;
   text-align: center;
-    background-color:pink;
 }
 
 
@@ -213,6 +212,7 @@ a{
 body{
  margin:0;
 }
+
 
 
 
