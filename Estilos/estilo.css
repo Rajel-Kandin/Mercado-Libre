@@ -69,8 +69,7 @@ header div{
   width: 100%;
   max-width: 400px;
   text-align: center;
-   display: flex;
-    flex-direction: column;
+   
 }
 
 .encuesta a{
@@ -110,11 +109,7 @@ input[type="text"] {
   cursor: pointer;
 }
 
-/* Efecto hover 
- .button-recom :hover {
-  background-color: #0056b3;
-  transform: scale(1.03);
-}*/
+
 
 /* Espaciado entre botones */
 a {
@@ -212,6 +207,7 @@ a{
 body{
  margin:0;
 }
+
 
 
 
