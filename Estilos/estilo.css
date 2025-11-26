@@ -5,7 +5,6 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
-    transition: 0.3s;
   }
 
  .buscador {
@@ -109,14 +108,13 @@ input[type="text"] {
   font-weight: 600;
   border-radius: 8px;
   cursor: pointer;
-  transition: 0.3s;
 }
 
-/* Efecto hover */
+/* Efecto hover 
  .button-recom :hover {
   background-color: #0056b3;
   transform: scale(1.03);
-}
+}*/
 
 /* Espaciado entre botones */
 a {
@@ -214,4 +212,5 @@ a{
 body{
  margin:0;
 }
+
 
